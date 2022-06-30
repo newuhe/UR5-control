@@ -18,7 +18,7 @@ import math3d as m3d
 __author__ = "Morten Lind, Olivier Roulet-Dubonnet"
 __copyright__ = "Copyright 2011, NTNU/SINTEF Raufoss Manufacturing AS"
 __credits__ = ["Morten Lind, Olivier Roulet-Dubonnet"]
-__license__ = "LGPLv3"
+__license__ = "wff"
 
 
 class URRTMonitor(threading.Thread):
@@ -114,7 +114,7 @@ class URRTMonitor(threading.Thread):
                 return ret
             else:
                 return tcf
-    getTCF = tcf_pose
+    getTCF = tcf_pos
 
     def tcf_force(self, wait=False, timestamp=False):
         """ Get the tool force. The returned tool force is a
