@@ -114,7 +114,7 @@ class URRTMonitor(threading.Thread):
                 return ret
             else:
                 return tcf
-    getTCF = tcf_pose
+    getTCF = tcf_pos
 
     def tcf_force(self, wait=False, timestamp=False):
         """ Get the tool force. The returned tool force is a
