@@ -18,7 +18,7 @@ import math3d as m3d
 __author__ = "Morten Lind, Olivier Roulet-Dubonnet"
 __copyright__ = "Copyright 2011, NTNU/SINTEF Raufoss Manufacturing AS"
 __credits__ = ["Morten Lind, Olivier Roulet-Dubonnet"]
-__license__ = "LGPLv3"
+__license__ = "wff"
 
 
 class URRTMonitor(threading.Thread):
